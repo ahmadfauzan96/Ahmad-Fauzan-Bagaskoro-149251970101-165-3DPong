@@ -2,11 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PaddleController : MonoBehaviour
+public class Paddle2Controller : MonoBehaviour
 {
     public float speed;
-    // public KeyCode upKey;
-    // public KeyCode downKey;
     public KeyCode leftKey;
     public KeyCode rightKey;
 
@@ -22,19 +20,10 @@ public class PaddleController : MonoBehaviour
         Vector3 movePaddle = GetInput();
 
         moveObject(movePaddle);
-        // Input.GetAxis("Vertical");
     }
 
     private Vector3 GetInput()
     {
-        // if (Input.GetKey(upKey))
-        // {
-        //     return Vector3.up * speed;
-        // }
-        // if (Input.GetKey(downKey));
-        // {
-        //     return Vector3.down * speed;
-        // }
         if (Input.GetKey(leftKey))
         {
             return Vector3.left * speed;

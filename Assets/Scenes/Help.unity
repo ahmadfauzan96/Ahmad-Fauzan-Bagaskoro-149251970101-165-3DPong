@@ -259,9 +259,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cara mengontrol paddle\nPemain 1: \nPemain 2: Tekan W untuk ke atas, tekan
-    S untuk ke bawah\nPemain 3: \nPemain 4: Tekan panah atas untuk ke atas, tekan
-    panah bawah untuk ke bawah"
+  m_Text: 'Cara mengontrol paddle (Gunakan keyboard QWERTY US!):
+
+
+    Pemain 1:
+    Tekan Z untuk ke kiri, tekan X untuk ke kanan.
+
+    Pemain 2: Tekan W untuk ke
+    atas, tekan S untuk ke bawah.
+
+    Pemain 3: Tekan tanda bintang (angka 8) untuk
+    ke kiri, tekan tanda kurung buka (angka 9) untuk ke kanan.
+
+    Pemain 4: Tekan
+    O untuk ke atas, tekan L untuk ke bawah.'
 --- !u!222 &493520132
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -534,7 +545,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Jadilah orang terakhir yang survive!
+  m_Text: 'Jadilah orang terakhir yang bertahan!
 
 
 

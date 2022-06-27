@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Vector3 speed;
+    public Vector3 resetPosition;
+
+    private Rigidbody rig;
+
+    private void Start()
     {
-        
+        rig = GetComponent<Rigidbody>();
+        rig.velocity = speed;
     }
 
-    // Update is called once per frame
-    void Update()
+    // Meletakkan bola pada posisi awal
+    public void ResetBall()
     {
-        
+        transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
     }
 }
